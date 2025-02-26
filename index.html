@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#home" class="logo"> هاش <span> بلس </span></a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">الصفحة الرئيسية</a>
+            <a href="#services">خدمات</a>
+            <a href="#testimonials">شهادات العملاء</a>
+            <a href="#contact">اتصال</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1> اهلا انا <span> هاش بلس</span></h1>
+            <h3 class="text-animation"> <span> </span></h3>
+            <p>تأسست هاش بلس على فكرة البرمجة المبسطة، مما يمكن للجميع، بغض النظر عن خلفيتهم
+                البرمجية السابقة، من فهم وتعلم جميع المفاهيم الهامة هذا المجال بسلاسة.
+
+                يهدف فريق هاش بلس إلى تقديم محتوى تعليمي يمزج بين الشرح الواضح والأمثلة
+                التطبيقية العملية</p>
+
+            <div class="social-icons">
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+            </div>
+
+            <div class="btn-group">
+                <a href="#contact" class="btn">اضغط هنا</a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="p.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">خدمات</h2>
+        <div class="services-container">
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>🚀 تطوير المواقع</h4>
+                    <p>
+                        نقدم حلولًا مبتكرة في تطوير المواقع تشمل تصميم الواجهات الأمامية وتجربة المستخدم، مع تحسين
+                        الأداء والسرعة لضمان تجربة سلسة. نعتمد على أحدث التقنيات مثل HTML, CSS, JavaScript، بالإضافة إلى
+                        أطر العمل الحديثة مثل React وVue لإنشاء مواقع تفاعلية تلبي احتياجات المستخدمين بكفاءة
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>📱 تطوير التطبيقات</h4>
+                    <p>
+                        نصمم تطبيقات عالية الجودة تعمل بسلاسة على الهواتف الذكية وأجهزة الحاسوب، باستخدام لغات مثل Java,
+                        Kotlin, Swift لتطبيقات الموبايل، python, JavaScript لتطبيقات الويب. كما نستخدم أطر العمل الحديثة
+                        مثل Flutter لضمان أداء ممتاز وسهولة الاستخدام، مما يوفر للمستخدم تجربة سلسة وعملية
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>📝 إنشاء الدورات</h4>
+                    <p>
+                        نساعد في تحويل المعرفة إلى محتوى تعليمي تفاعلي عبر الإنترنت، سواءً لدورات تعليمية أكاديمية أو
+                        مهارية. نعتمد على تصميم محتوى متجدد وعالي الجودة، مع إضافة أدوات داعمة مثل الاختبارات التفاعلية
+                        والمناقشات الجماعية. نستخدم منصات مثل Udemy, Coursera لنشر الدورات بسهولة والوصول إلى المتعلمين
+                        في جميع أنحاء العالم.
+
+
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>إنشاء المذكرات</h4>
+                    <p>
+                        نُوفر حلولًا متقدمة لتنظيم المعلومات وتوثيق الأفكار بطريقة مرنة، سواءً للاستخدام الشخصي أو
+                        الأكاديمي أو المهني. نوفر أدوات فعالة مثل Evernote, OneNote لتخزين الملاحظات وإدارتها بسهولة، مع
+                        إمكانية الوصول إليها في أي وقت ومن أي مكان، مما يجعل التدوين الرقمي أكثر سهولة وفعالية.
+
+
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+        <div class="testimonials-box">
+            <h2 class="heading">آراء طلابنا عن هاش بلس </h2>
+
+            <div class="wrapper">
+                <div class="testimonial-item">
+                    <img src="./person.jpg" alt="">
+                    <h2>محمد</h2>
+                    <div class="rating">
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                    </div>
+                    <p>"تجربتي مع هاش بلس كانت استثنائية! المحتوى التفاعلي والشرح المبسط جعل تعلم البرمجة أسهل مما توقعت، ساعدني كثيرًا في بناء أول مشروعي الشخصي"</p>
+                </div>
+
+                <div class="testimonial-item">
+                    <img src="./person.jpg" alt="">
+                    <h2>خالد</h2>
+                    <div class="rating">
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                    </div>
+                    <p>"لم أتخيل أن تعلم البرمجة يمكن أن يكون ممتعًا بهذا الشكل! طريقة تقديم الدروس والمراحل التفاعلية في هاش بلس حفزتني على الاستمرار وتحقيق تقدم كبير في وقت قصير."</p>
+                </div>
+
+                <div class="testimonial-item">
+                    <img src="./person.jpg" alt="">
+                    <h2>أنس</h2>
+                    <div class="rating">
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                    </div>
+                    <p>"هاش بلس غيرت فكرتي عن التعليم التقليدي، كل درس مصمم بطريقة ممتعة تجذبك للاستمرار، والتحديات البرمجية ساعدتني على اكتساب مهارات عملية بسرعة"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">تواصل <span>معنا</span></h2>
+
+        <form action="">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Phone Number">
+                    <input type="text" placeholder="Subject">
+                </div>
+            </div>
+
+            <div class="input-group-2">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </div>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="social">
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+            <a href="#"><i class='bx bxl-github'></i></a>
+            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="#">الأسئلة الشائعة</a>
+
+            </li>
+
+            <li>
+                <a href="#">الخدمات</a>
+            </li>
+
+            <li>
+                <a href="#">معلومات عني</a>
+            </li>
+
+            <li>
+                <a href="#">اتصل بنا </a>
+            </li>
+
+            <li>
+                <a href="#">شهادات العملاء</a>
+            </li>
+        </ul>
+        <p class="copyright">
+            © هاش بلس | جميع الحقوق محفوظه
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
